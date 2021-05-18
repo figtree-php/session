@@ -1,0 +1,47 @@
+{
+	"name": "figtree-php/session",
+	"description": "FigTree Session",
+	"keywords": [
+		"figtree",
+		"figtree-php",
+		"session"
+	],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alan Ondra",
+			"email": "r.alan.ondra@gmail.com",
+			"role": "Creator"
+		}
+	],
+	"funding": [
+		{
+			"type": "github",
+			"url": "https://github.com/sponsors/alanondra"
+		}
+	],
+	"readme": "readme.md",
+	"support": {
+		"email": "figtree.php@gmail.com",
+		"source": "https://github.com/figtree-php/session",
+		"issues": "https://github.com/figtree-php/session/issues",
+		"wiki": "https://github.com/figtree-php/session/wiki"
+	},
+	"autoload": {
+		"psr-4": {
+			"FigTree\\Session\\": "src/",
+			"FigTree\\Session\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+		"php": "^8.0",
+		"figtree-php/exceptions": "^1.0",
+		"psr/cache": "^3.0",
+		"psr/simple-cache": "^1.0"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.6",
+		"phpunit/phpunit": "^9.5"
+	}
+}
