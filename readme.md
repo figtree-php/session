@@ -6,8 +6,8 @@
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/figtree-php/session/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Total Downloads](https://img.shields.io/packagist/dt/figtree-php/session)](https://packagist.org/packages/figtree-php/session)
 
-The FigTree Session library forms a bridge between the native PHP
-SessionHandler, and either PSR-6 Cache or PSR-16 Simple Cache.
+The FigTree Session library creates a persistence repository using
+either the PSR-6 Cache or PSR-16 Simple Cache.
 
 ## Documentation
 
