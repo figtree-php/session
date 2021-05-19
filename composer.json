@@ -38,7 +38,8 @@
 		"php": "^8.0",
 		"figtree-php/exceptions": "^1.0",
 		"psr/cache": "^3.0",
-		"psr/simple-cache": "^1.0"
+		"psr/simple-cache": "^1.0",
+		"psr/http-server-middleware": "^1.0"
 	},
 	"require-dev": {
 		"squizlabs/php_codesniffer": "^3.6",
